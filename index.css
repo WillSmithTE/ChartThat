@@ -1,19 +1,46 @@
+.background {
+    position: relative;
+    width: 100%;
+  }
+  
 h1 {
+    font-size: 60px;
     padding-top: 5px;
+    font-weight: bold;
     text-align: center;
+    font-family: Tahoma;
+}
+
+p {
+    font-family: Tahoma;
+    font-size: 24px;
+}
+
+img {
+    width: 100%;
+}
+
+.content {
+    border-radius: 25px;
+    padding: 20px;
+    position: absolute;
+    top: 200px;
+    left: 30%;
+    right: 30%;
+    background-color: white;
 }
 
 .about {
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 5%;
     margin: auto;
-    width: 30%;
+    width: 90%;
     text-align: justify;
 }
 
 .github {
     margin-top: 20px;
-    bottom: 0;
-    display: block;
+    width: 40%;
     margin: auto;
+    display: block;
 }
